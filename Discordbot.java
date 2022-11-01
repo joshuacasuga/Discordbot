@@ -10,7 +10,7 @@ import javax.security.auth.login.LoginException;
 public class Discordbot
 {
     public static void main(String[] args) throws LoginException, InterruptedException {
-        JDA jda = JDABuilder.createDefault("MTAzNDk5NjIxNDc3MDQzODMxNw.Gu8du9.B_qs9_5tcAAEcBdE2EJYQRE764zjb2Tu0WolSw")
+        JDA jda = JDABuilder.createDefault("MY API KEY")
                 .setActivity(Activity.playing("Bot in Progress."))
                 .addEventListeners(new BotCommands())
                 .build().awaitReady();
